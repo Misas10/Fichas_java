@@ -1,0 +1,23 @@
+package conta;
+
+public class contaCorrente implements conta{
+    double saldo;
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    @Override
+    public void Deposita(double saldo) {
+
+    }
+
+    @Override
+    public void Levanta(double saldo){
+
+    }
+}
