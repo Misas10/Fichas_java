@@ -6,6 +6,8 @@ public class atividade2 {
 
         File f1 = new File("msg.txt");
 
+        System.out.println("olá não é `àlgo");
+
         FileReader fileReader = new FileReader(f1);
         BufferedReader br = new BufferedReader(fileReader);
 
@@ -14,6 +16,9 @@ public class atividade2 {
             System.out.println(linha);
         }
         System.out.println();
+
+        fileReader.close();
+        br.close();
 
     }
 }
