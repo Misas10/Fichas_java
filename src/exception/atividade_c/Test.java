@@ -1,4 +1,4 @@
-package atividade_c;
+package exception.atividade_c;
 
 public class Test {
     public static void explode() throws Bomba{

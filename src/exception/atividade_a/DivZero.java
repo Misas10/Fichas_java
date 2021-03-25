@@ -1,4 +1,4 @@
-package atividade_a;
+package exception.atividade_a;
 
 public class DivZero {
     public static void main(String[] args) {

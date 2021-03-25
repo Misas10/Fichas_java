@@ -1,4 +1,4 @@
-package atividade_c;
+package exception.atividade_c;
 
 public class Bomba extends Exception{
 
